@@ -2,6 +2,7 @@ package com.ledger.domain.journal;
 
 import java.util.Objects;
 import java.util.UUID;
+import com.ledger.application.accountheading;
 
 import com.ledger.domain.common.valueobject.ValueObject;
 
