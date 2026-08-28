@@ -1,7 +1,7 @@
 package com.ledger.domain.common.entity;
 
 import java.util.Objects;
-
+import com.ledger.bootstrap;
 /**
  * Base class for all Domain Entities.
  *
