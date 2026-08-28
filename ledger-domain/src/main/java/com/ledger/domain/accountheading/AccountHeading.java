@@ -1,6 +1,7 @@
 package com.ledger.domain.accountheading;
 
 import com.ledger.domain.common.aggregate.AggregateRoot;
+import com.ledger.application.accountheading;
 
 import java.util.Objects;
 
