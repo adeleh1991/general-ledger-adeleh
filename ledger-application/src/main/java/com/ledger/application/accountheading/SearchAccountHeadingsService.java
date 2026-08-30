@@ -49,6 +49,12 @@ public class SearchAccountHeadingsService {
                         nature
                 );
 
+         for (AccountHeading heading : headings) {
+           if (heading.getParentId() != null) {
+         repository.findById(heading.getParentId());
+        }
+}
+
         List<SearchAccountHeadingsResponse.AccountHeadingItem> items =
                 headings.stream()
                         .map(this::toItem)
