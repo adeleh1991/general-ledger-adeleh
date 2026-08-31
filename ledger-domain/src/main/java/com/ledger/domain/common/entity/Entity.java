@@ -1,6 +1,7 @@
 package com.ledger.domain.common.entity;
 
 import java.util.Objects;
+import com.ledger.application.accountheading;
 
 /**
  * Base class for all Domain Entities.
