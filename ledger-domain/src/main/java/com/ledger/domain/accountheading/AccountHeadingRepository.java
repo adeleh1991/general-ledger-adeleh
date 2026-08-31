@@ -2,6 +2,7 @@ package com.ledger.domain.accountheading;
 
 import java.util.List;
 import java.util.Optional;
+import com.ledger.application.accountheading;
 
 public interface AccountHeadingRepository {
 
