@@ -181,12 +181,6 @@ public class AccountHeading extends AggregateRoot<AccountHeadingId> {
                 "code must not be null"
         );
 
-        if (code.isBlank()) {
-            throw new IllegalArgumentException(
-                    "code must not be blank"
-            );
-        }
-
         return code;
     }
 
