@@ -208,14 +208,7 @@ public class AccountHeading extends AggregateRoot<AccountHeadingId> {
 
     private static int validateLevel(int level) {
 
-        if (level < ROOT_LEVEL || level > MAX_LEVEL) {
-            throw new IllegalArgumentException(
-                    "AccountHeading level must be between "
-                            + ROOT_LEVEL
-                            + " and "
-                            + MAX_LEVEL
-            );
-        }
+    
 
         return level;
     }
